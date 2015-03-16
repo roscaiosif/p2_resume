@@ -1,0 +1,151 @@
+/*common*/
+hr {
+  border-top: 1px solid #A39770;
+  margin:5px 0 0 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+h1 {
+  display:inline;
+}
+
+span {
+  padding: 5px;
+}
+/*Header*/
+#header-wrapper {
+  background-image: url("../images/headerBackGround.jpg");
+}
+
+#header {
+  margin :0;
+  border-width: 0;
+}
+
+#header hr {
+  border:1px solid #F0EED2;
+}
+
+#name {
+  font-size: 300%;
+  color: #E89B41; /*orange*/
+  margin: 0 2% 0 2%;
+}
+
+#role{
+  font-size: 120%;
+  color: #F0EED2;
+}
+
+#skillsH3 {
+  color: #E89B41;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 120%;
+  color: #F0EED2;
+  line-height: 100%;
+}
+
+.biopic {
+  float: left;
+  padding-top: 5px;
+  display:none;
+}
+
+
+/*Tabs for projects etc..*/
+.date-text {
+  font-style: italic;
+}
+
+.location-text {
+  font-style: italic;
+  float: right;
+}
+
+.project-img{
+  padding: 5px;
+}
+
+.education-entry a, .work-entry a, .project-entry a{
+  color: #A32500;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.orange-text {
+  color:#E89B41;
+}
+
+.white-text {
+  color: #F0EED2;
+}
+
+
+#letsConnect {
+  text-align: center;
+}
+
+#map {
+  height: 100%;
+}
+
+#mapDiv {
+  height: 500px;
+  padding-bottom: 5%;
+}
+
+#footerWrap {
+  background-color: #2B2922;
+}
+
+/* Bar chart stuff */
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4A4A4A;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 120px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .biopic {
+   display: block;
+  }
+}
