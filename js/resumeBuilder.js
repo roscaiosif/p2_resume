@@ -149,13 +149,13 @@ var education =
         }
     ],
     "display" : function(){
-        for (job in work.jobs){
+        for (job in this.jobs){
             var str ="";
-            str += HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
-            str += HTMLworkTitle.replace("%data%", work.jobs[job].title);
-            str += HTMLworkDates.replace("%data%", work.jobs[job].dates);
-            str += HTMLworkLocation.replace("%data%", work.jobs[job].location);
-            str += HTMLworkDescription.replace("%data%", work.jobs[job].description);
+            str += HTMLworkEmployer.replace("%data%", this.jobs[job].employer);
+            str += HTMLworkTitle.replace("%data%", this.jobs[job].title);
+            str += HTMLworkDates.replace("%data%", this.jobs[job].dates);
+            str += HTMLworkLocation.replace("%data%", this.jobs[job].location);
+            str += HTMLworkDescription.replace("%data%", this.jobs[job].description);
             $("#workExperience").append(HTMLworkStart);
             $(".work-entry:last").append(str);
         }
@@ -253,7 +253,7 @@ var education =
 };
 
 //ZERO
-//*$("#main").append(internationalizeButton);
+$("#main").append(internationalizeButton);
 
 //HEADER
 var str ="";

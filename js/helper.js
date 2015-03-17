@@ -66,13 +66,13 @@ var googleMap = '<div id="map"></div>';
 The International Name
 llenge in Lesson 2 where you'll create a function that will need this helper code to run. Don't delete! It hooks up your code to the button you'll be appending.
 */
-/*$(document).ready(function() {
+$(document).ready(function() {
   $('button').click(function() {
     var iName = inName() || function(){};
     $('#name').html(iName);
   });
 });
-*/
+
 /*
 The next few lines about clicks are for the Collecting Click Locations quiz in Lesson 2.
 */
@@ -88,13 +88,13 @@ function logClicks(x,y) {
   console.log('x location: ' + x + '; y location: ' + y);
 }
 
-/*$(document).click(function(loc) {
+$(document).click(function(loc) {
   // your code goes here!
   var x = loc.pageX;
   var y = loc.pageY;
   logClicks(x,y);
 });
-*/
+
 
 
 /*
