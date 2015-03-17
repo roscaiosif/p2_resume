@@ -203,13 +203,18 @@ var education =
         {
             "img": "images/slide_1.jpg",
             "imgAlt":"Pictures of CNC in different resins",
-            "caption":"<h3>ARBORANANO</h3><p>Crystallyne nanocellulose dispersion in hydrophobic media</p>"
+            "caption":"<h3>ArboraNano</h3><p>Crystallyne nanocellulose dispersion in hydrophobic media</p>"
         },
         {
             "img": "images/slide_2.jpg",
             "imgAlt":"Pictures of composite structures exposed to thermal cycling",
             "caption":"<h3>CRIAQ</h3><p>Composite structure behaviour in extreme space environments</p>"
         },
+        {
+            "img": "images/slide_3.jpg",
+            "imgAlt":"Pictures of nanotube composite manufacturing and electrical conductivity",
+            "caption":"<h3>CRIAQ</h3><p>Highly conductive composites based on carbon nanotubes</p>"
+        }
     ],
     "display" : function(){
         for (project in this.projects){
@@ -275,6 +280,7 @@ work.display();
 //EDUCATION
 education.display();
 
+//Name internationalization function
 var inName =function(name){
     var nameAr = [];
     nameAr = bio.name.split(" ");
